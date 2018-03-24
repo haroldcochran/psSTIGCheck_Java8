@@ -1,0 +1,81 @@
+{
+    "stigName": "Java Runtime Environment (JRE) version 8 STIG for Windows",
+    "stigVer": 1,
+    "stigRel": 5,
+    "stigDate": 20180126,
+    "jsonUpdated": 20180323,
+    "stigItems": [
+        {
+            "vulnID": "V-66723",
+            "classificationSkip": true,
+            "checks": [
+                "deployment.security.revocation.check=ALL_CERTIFICATES",
+                "deployment.security.revocation.check.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66947",
+            "classificationSkip": false,
+            "checks": [
+                "deployment.webjava.enabled=true",
+                "deployment.webjava.enabled.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66949",
+            "classificationSkip": true,
+            "checks": [
+                "deployment.security.askgrantdialog.notinca=false",
+                "deployment.security.askgrantdialog.notinca.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66951",
+            "classificationSkip": true,
+            "checks": [
+                "deployment.security.askgrantdialog.show=false",
+                "deployment.security.askgrantdialog.show.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66953",
+            "classificationSkip": true,
+            "checks": [
+                "deployment.security.validation.ocsp=true",
+                "deployment.security.validation.ocsp.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66955",
+            "classificationSkip": false,
+            "checks": [
+                "deployment.security.blacklist.check=true",
+                "deployment.security.blacklist.check.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66961",
+            "classificationSkip": true,
+            "checks": [
+                "deployment.security.validation.crl=true",
+                "deployment.security.validation.crl.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66963",
+            "classificationSkip": false,
+            "checks": [
+                "deployment.insecure.jres=PROMPT",
+                "deployment.insecure.jres.locked"
+            ]
+        },
+        {
+            "vulnID": "V-66945",
+            "classificationSkip": false,
+            "checks": [
+                "deployment.security.level=VERY_HIGH",
+                "deployment.security.level.locked"
+            ]
+        }
+    ]
+}
